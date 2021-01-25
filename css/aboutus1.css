@@ -1,0 +1,347 @@
+body{
+    /* padding:0; */
+    margin:0;
+    background-color:#ffffed;
+
+}
+
+.name_tag{
+    width:400px;
+    height:100px;
+}
+
+.name_tag img{
+    width:320px;
+    height:80px;
+    padding:10px 60px;
+    z-index:9998;
+}
+
+li{
+    list-style: none;
+}
+
+.header-list{
+    position:fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    z-index: 9998;
+    font-family:"Gotham-Bold";
+    font-size: 23px;
+    color:black;
+    /* top:30px; */
+    width:100%;
+    height:100px;
+    padding: 0;
+    /* transition: all 0.2s ease-in-out; */
+    background-color:transparent; 
+    /* margin:3%; */
+    background-color:white;
+    box-shadow: 2px 0px 4px;
+}
+
+.header-list ul{
+    width:100%;
+    padding:0;
+}
+
+.header-list li{
+    text-align: center;
+    float:left;
+    /* display: flex; */
+    width:calc(100% / 5);
+    line-height: 23px;
+    padding:15px 0;
+}
+
+.list2{
+    line-height: 30px;
+    padding:30px 0;
+    margin-right:65px;
+}
+
+.header-list a{
+    text-decoration: none;
+}
+
+.header-list li{
+    /* border: 2px black solid; */
+    box-sizing: border-box;
+    transition: border 0.2s ease 0s;
+  }
+.header-list li:hover{
+    border: 5px #ffb414 solid;
+}
+
+.header-list a:visited {
+    color: black;
+  }
+
+.contents-wrapper{
+    position: relative;
+    top:120px;
+}
+
+
+.box1 img{
+    width:100%;
+}
+
+.top-sen {
+    color:#030101;
+    font-family: "Gotham-Bold";
+    width:100%;
+    display:flex;
+    padding:1%;
+    margin:20px 0 0 0;
+    background-color:#ffb414;
+}
+
+.top-sen h1{
+    padding:1%;
+    margin:0;
+    font-size: 30px;
+}
+
+.top-sen h2{
+    font-family: irohamaru;
+    padding:1%;
+    margin:0;
+}
+
+
+.history{
+    font-family: irohamaru;
+    width:1000px;
+    margin:10px auto 100px auto;
+    display: flex;
+}
+
+.historyTitle{
+    font-family: "Gotham-Bold";
+    font-size: 40px;
+    width:1000px;
+    /* padding:20px; */
+    margin:100px auto 30px auto;
+    /* background-color: #ffb414;
+    color:white; */
+}
+
+.historyContents{
+    font-size: 20px;
+    width:800px;
+    height:450px;
+    /* margin:30px; */
+}
+
+.historyContents p{
+    line-height:16px;
+}
+
+.history-1{
+    margin:0;
+    padding:40px 0;
+    /* background-color:burlywood; */
+    border-top: solid 5px #c2201f;
+    /* border-bottom: solid 5px #5989cf; */
+}
+
+.history-2{
+    margin:0;
+    padding:40px 0;
+    border-top: solid 5px #c2201f;
+    /* border-bottom: solid 5px #5989cf; */
+}
+
+
+.history-3{
+    /* background-color:burlywood; */
+    padding:40px 0;
+    border-top: solid 5px #c2201f;
+    /* border-bottom: solid 5px #c2201f; */
+}
+
+.history-4{
+    padding:40px 0;
+    border-top: solid 5px #c2201f;
+    border-bottom: solid 5px #c2201f;
+}
+
+.historyPhoto{
+    width:375px;
+    height:625px;
+    margin:0 30px;
+}
+
+.historyPhoto img{
+    width:300px;
+    height:548px;
+}
+
+/* .button{
+    width:960px;
+    height:478px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.act-button img{
+    width:378px;
+    height:378px;
+    margin:50px;
+    float:left;
+}
+
+.act-button img{
+    transition: transform 0.2s ease 0s;
+}
+.act-button img:hover{
+    transform:translate(0, -10%) ;
+}
+
+.staff-button img{
+    width:378px;
+    height:378px;
+    margin:50px;
+    float:left;
+}
+
+.staff-button img{
+    transition: transform 0.2s ease 0s;
+}
+.staff-button img:hover{
+    transform:translate(0, -10%) ;
+} */
+
+.activitystatusTitle{
+    font-family: "Gotham-Bold";
+    font-size: 40px;
+    width:1000px;
+    /* padding:20px; */
+    margin:100px auto 30px auto;
+}
+
+.activity-status{
+    /* position:relative; */
+    display: flex;
+    width:1000px;
+    height:700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.activity-sen{
+    position:relative;
+    font-family: irohamaru;
+    font-size: 20px;
+    width:600px;
+    height:800px;
+    
+}
+
+.sen1{
+    display: flex;
+    /* position: absolute; */
+    width:600px;
+}
+
+.sen1 img{
+    width:226px;
+    height:280px;
+}
+
+.sen1-1{
+    width:375px;
+    margin:10px;
+}
+
+.sen2{
+    /* position: absolute; */
+    width:600px;
+    margin:100px 0;
+    line-height: 30px;
+}
+
+.activityPhoto img{
+    width:330px;
+    height:705px;
+    margin:0 30px;
+}
+
+.staff{
+    width:1000px;
+    margin:10px auto 100px auto;
+    display: flex;
+}
+
+.staffTitle{
+    font-family: "Gotham-Bold";
+    font-size: 40px;
+    width:1000px;
+    margin:100px auto 30px auto;
+}
+
+.staffContents{
+    font-family: irohamaru;
+    width:750px;
+    height:200px;
+    margin:auto 0;
+}
+
+.staffContents p{
+    font-size: 20px;
+    line-height:20px;
+}
+
+.staffContents span{
+    font-size: 25px;
+    line-height:20px;
+}
+
+.staffSen1{
+    margin:0;
+    /* padding:40px 0; */
+}
+
+.staffSen2{
+    margin:40px 0;
+    /* padding:40px 0; */
+}
+
+.staffPhoto img{
+    width:305px;
+    height:396px;
+    margin:0 30px;
+}
+
+.pageTop{
+    position:relative;
+    z-index:100;
+    top:170px;
+    width:155px;
+    height:153px;
+    margin-left:auto;
+}
+.pageTop img{
+    width:100px;
+    height:100px;
+    right: 0;
+}
+
+.kusa img{
+    position: relative;
+    width:100%;
+    top:120px;
+}
+
+footer{
+    position:relative;
+    top:100px;
+    /* align-items:flex-end; */
+    width: 100%;
+    background-color: #ffb414;
+    color: black;
+    text-align: center;
+    padding: 30px 0;
+}

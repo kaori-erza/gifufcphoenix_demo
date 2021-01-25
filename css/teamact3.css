@@ -1,0 +1,240 @@
+body{
+    /* padding:0; */
+    margin:0;
+    background-color:#ffffed;
+
+}
+
+.name_tag{
+    width:400px;
+    height:100px;
+}
+
+.name_tag img{
+    width:320px;
+    height:80px;
+    padding:10px 60px;
+    z-index:9998;
+}
+
+li{
+    list-style: none;
+}
+
+.header-list{
+    position:fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    z-index: 9998;
+    font-family:"Gotham-Bold";
+    font-size: 23px;
+    color:black;
+    /* top:30px; */
+    width:100%;
+    height:100px;
+    padding: 0;
+    /* transition: all 0.2s ease-in-out; */
+    background-color:transparent; 
+    /* margin:3%; */
+    background-color:white;
+    box-shadow: 2px 0px 4px;
+}
+
+.header-list ul{
+    width:100%;
+    padding:0;
+}
+
+.header-list li{
+    text-align: center;
+    float:left;
+    /* display: flex; */
+    width:calc(100% / 5);
+    line-height: 23px;
+    padding:15px 0;
+}
+
+.list2{
+    line-height: 30px;
+    padding:30px 0;
+    margin-right:65px;
+}
+
+.header-list a{
+    text-decoration: none;
+}
+
+.header-list li{
+    /* border: 2px black solid; */
+    box-sizing: border-box;
+    transition: border 0.2s ease 0s;
+  }
+.header-list li:hover{
+    border: 5px #ffb414 solid;
+}
+
+.header-list a:visited {
+    color: black;
+  }
+
+.contents-wrapper{
+    position: relative;
+    top:180px;
+}
+
+
+.box1 img{
+    position:relative;
+    top:100px;
+    width:100%;
+}
+
+
+/* .top-sen {
+    position:relative;
+    top:130px;
+    color:#ffffff;
+    font-family: "Gotham-Bold";
+    width:100%;
+    display:flex;
+    padding:1%;
+    margin:50px 0;
+    background-color:#ffb414;
+}
+
+.top-sen h1{
+    padding:1%;
+    margin:0;
+    font-size: 30px;
+
+}
+
+.top-sen h2{
+    font-family: irohamaru;
+    padding:1%;
+    margin:0;
+} */
+
+.gr{
+    position:relative;
+    width: 910px;
+    /* height: 800px; */
+    margin:auto;
+    /* background-color:#ffb414; */
+}
+
+/* .jh-top{
+    display: flex;
+    justify-content: flex-start;
+} */
+
+.grTitle{
+    background-color: #ffb414;
+    width:380px;
+    height:60px;
+    display: flex;
+    box-shadow: 6px 6px #c2201f;
+}
+
+.grTitle h1{
+    color: white;
+    font-family: "Gotham-Bold";
+    font-size: 40px;
+    line-height: 30px;
+    margin:0;
+    padding:15px;
+}
+
+.grTitle h2{
+    color:white;
+    font-family: irohamaru;
+    font-size: 30px;
+    margin:0;
+    padding:10px;
+}
+
+.grBox{
+    display: flex;
+    justify-content: center;
+    margin:10px 0;
+}
+
+.grPhoto img{
+    width:235px;
+    height:358px;
+    margin:80px 0;
+}
+
+.gr-content{
+    width:700px;
+    margin:0 0 0 40px;
+}
+
+.gr-content p{
+    font-size: 20px;
+    font-family: irohamaru;
+    margin:45px 0;
+    line-height: 35px;
+}
+
+.gr-photo{
+    width:920px;
+    margin:30px auto;
+}
+
+.button{
+    /* position:relative; */
+    /* top:300px; */
+    /* width:960px; */
+    height:180px;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.jh-button img{
+    /* position:relative; */
+    /* top:200px; */
+    width:455px;
+    height:57px;
+    margin:50px;
+}
+
+.prfe-button img{
+    width:455px;
+    height:57px;
+    margin:50px;
+}
+
+.pageTop{
+    position:relative;
+    z-index:100;
+    top:270px;
+    width:155px;
+    height:153px;
+    margin-left:auto;
+}
+.pageTop img{
+    width:100px;
+    height:100px;
+    right: 0;
+}
+
+.kusa img{
+    position: relative;
+    width:100%;
+    top:220px;
+}
+
+footer{
+    position:relative;
+    top:200px;
+    /* align-items:flex-end; */
+    width: 100%;
+    background-color: #ffb414;
+    color: black;
+    text-align: center;
+    padding: 30px 0;
+}
