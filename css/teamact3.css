@@ -1,8 +1,8 @@
 @font-face{
     font-family: 'irohamaru';
-    src:url(font/irohamaru-Regular.ttf);
+    src:url(font/irohamaru-Regular.ttf) format('truetype');
     font-family:'Gotham-Bold';
-    src:url(font/Gotham-Bold.otf);
+    src:url(font/Gotham-Bold.otf) format('truetype');
 }
 
 body{
@@ -34,7 +34,7 @@ li{
     top: 0;
     left: 0;
     z-index: 9998;
-    font-family:"Gotham-Bold";
+    font-family:Gotham-Bold;
     font-size: 23px;
     color:black;
     /* top:30px; */
@@ -97,32 +97,6 @@ li{
     width:100%;
 }
 
-
-/* .top-sen {
-    position:relative;
-    top:130px;
-    color:#ffffff;
-    font-family: "Gotham-Bold";
-    width:100%;
-    display:flex;
-    padding:1%;
-    margin:50px 0;
-    background-color:#ffb414;
-}
-
-.top-sen h1{
-    padding:1%;
-    margin:0;
-    font-size: 30px;
-
-}
-
-.top-sen h2{
-    font-family: irohamaru;
-    padding:1%;
-    margin:0;
-} */
-
 .gr{
     position:relative;
     width: 910px;
@@ -130,11 +104,6 @@ li{
     margin:auto;
     /* background-color:#ffb414; */
 }
-
-/* .jh-top{
-    display: flex;
-    justify-content: flex-start;
-} */
 
 .grTitle{
     background-color: #ffb414;
@@ -146,7 +115,7 @@ li{
 
 .grTitle h1{
     color: white;
-    font-family: "Gotham-Bold";
+    font-family: Gotham-Bold;
     font-size: 40px;
     line-height: 30px;
     margin:0;

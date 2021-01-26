@@ -1,8 +1,8 @@
 @font-face{
     font-family: 'irohamaru';
-    src:url(font/irohamaru-Regular.ttf);
+    src:url(font/irohamaru-Regular.ttf) format('truetype');
     font-family:'Gotham-Bold';
-    src:url(font/Gotham-Bold.otf);
+    src:url(font/Gotham-Bold.otf) format('truetype');
 }
 
 body{
@@ -34,7 +34,7 @@ li{
     top: 0;
     left: 0;
     z-index: 9998;
-    font-family:"Gotham-Bold";
+    font-family:Gotham-Bold;
     font-size: 23px;
     color:black;
     /* top:30px; */
@@ -102,7 +102,7 @@ li{
     /* position:relative; */
     /* top:130px; */
     color:#ffffff;
-    font-family: "Gotham-Bold";
+    font-family: Gotham-Bold;
     /* width:100%; */
     display:flex;
     padding:1%;
@@ -194,13 +194,13 @@ table{
 
 table th{
     border: solid 1px #333; /* 線の種類 太さ 色 */
-    font-family:"Gotham-Bold";
+    font-family:Gotham-Bold;
 }
 
 table td{
     padding:10px 10px 20px 10px;
     font-size:25px;
-    font-family: "Gotham-Bold";
+    font-family: Gotham-Bold;
     border: solid 1px #333; /* 線の種類 太さ 色 */
 }
 
