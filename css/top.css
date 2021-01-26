@@ -1,9 +1,15 @@
+@font-face{
+    font-family: 'irohamaru';
+    src:url(font/irohamaru-Regular.ttf);
+    font-family:'Gotham-Bold';
+    src:url(font/Gotham-Bold.otf);
+}
+
 body{
     padding:0;
     margin:0;
     background-color:#ffffed;
     overflow-x: hidden;
-
 }
 
 #loading {
@@ -46,8 +52,8 @@ body{
   
 .top-img img{
     position: absolute;
-    width:70%;
-    top:90px;
+    width:100%;
+    top:0px;
     left: 0;
     right: 0;
     margin: 30px auto;
@@ -157,7 +163,7 @@ li{
     display: inline-block;
     position: absolute;
     /* right: 40px; */
-    top:700px;
+    top:800px;
     left:50%;
     z-index: 2;
     padding: 10px 10px 110px;
@@ -206,7 +212,7 @@ li{
 
 .contents-wrapper{
     position: relative;
-    top:900px;
+    top:1000px;
 }
 
 .top-sen {
@@ -506,7 +512,7 @@ li{
 .pageTop{
     position:relative;
     z-index:100;
-    top:770px;
+    top:830px;
     width:155px;
     height:153px;
     margin-left:auto;
@@ -525,7 +531,7 @@ li{
 
 footer{
     position:relative;
-    top:700px;
+    top:780px;
     /* align-items:flex-end; */
     width: 100%;
     background-color: #ffb414;

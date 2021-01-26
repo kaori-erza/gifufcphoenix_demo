@@ -1,3 +1,10 @@
+@font-face{
+    font-family: 'irohamaru';
+    src:url(font/irohamaru-Regular.ttf);
+    font-family:'Gotham-Bold';
+    src:url(font/Gotham-Bold.otf);
+}
+
 body{
     /* padding:0; */
     margin:0;
@@ -211,7 +218,7 @@ li{
 .pageTop{
     position:relative;
     z-index:100;
-    top:270px;
+    top:250px;
     width:155px;
     height:153px;
     margin-left:auto;

@@ -1,8 +1,15 @@
+@font-face{
+    font-family: 'irohamaru';
+    src:url(font/irohamaru-Regular.ttf);
+    font-family:'Gotham-Bold';
+    src:url(font/Gotham-Bold.otf);
+}
+
 body{
     /* padding:0; */
     margin:0;
     background-color:#ffffed;
-
+    overflow-x: hidden;
 }
 
 .name_tag{
@@ -80,11 +87,12 @@ li{
 
 .contents-wrapper{
     position: relative;
-    top:120px;
+    top:100px;
 }
 
-
 .box1 img{
+    position:relative;
+    /* top:100px; */
     width:100%;
 }
 
@@ -130,18 +138,18 @@ li{
 
 .historyContents{
     font-size: 20px;
-    width:800px;
-    height:450px;
+    width:590px;
+    height:650px;
     /* margin:30px; */
 }
 
 .historyContents p{
-    line-height:16px;
+    line-height:25px;
 }
 
 .history-1{
     margin:0;
-    padding:40px 0;
+    padding:20px 0;
     /* background-color:burlywood; */
     border-top: solid 5px #c2201f;
     /* border-bottom: solid 5px #5989cf; */
@@ -149,7 +157,7 @@ li{
 
 .history-2{
     margin:0;
-    padding:40px 0;
+    padding:20px 0;
     border-top: solid 5px #c2201f;
     /* border-bottom: solid 5px #5989cf; */
 }
@@ -157,69 +165,35 @@ li{
 
 .history-3{
     /* background-color:burlywood; */
-    padding:40px 0;
+    padding:20px 0;
     border-top: solid 5px #c2201f;
     /* border-bottom: solid 5px #c2201f; */
 }
 
 .history-4{
-    padding:40px 0;
+    padding:20px 0;
     border-top: solid 5px #c2201f;
     border-bottom: solid 5px #c2201f;
+    /* line-height: 50px; */
 }
 
 .historyPhoto{
-    width:375px;
-    height:625px;
+    width:350px;
+    height:582px;
     margin:0 30px;
 }
 
 .historyPhoto img{
-    width:300px;
-    height:548px;
+    width:350px;
+    height:582px;
 }
-
-/* .button{
-    width:960px;
-    height:478px;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.act-button img{
-    width:378px;
-    height:378px;
-    margin:50px;
-    float:left;
-}
-
-.act-button img{
-    transition: transform 0.2s ease 0s;
-}
-.act-button img:hover{
-    transform:translate(0, -10%) ;
-}
-
-.staff-button img{
-    width:378px;
-    height:378px;
-    margin:50px;
-    float:left;
-}
-
-.staff-button img{
-    transition: transform 0.2s ease 0s;
-}
-.staff-button img:hover{
-    transform:translate(0, -10%) ;
-} */
 
 .activitystatusTitle{
     font-family: "Gotham-Bold";
     font-size: 40px;
-    width:1000px;
+    width:300px;
     /* padding:20px; */
-    margin:100px auto 30px auto;
+    margin:100px auto 30px 600px;
 }
 
 .activity-status{
@@ -310,15 +284,15 @@ li{
 }
 
 .staffPhoto img{
-    width:305px;
-    height:396px;
+    width:261px;
+    height:410px;
     margin:0 30px;
 }
 
 .pageTop{
     position:relative;
     z-index:100;
-    top:170px;
+    top:150px;
     width:155px;
     height:153px;
     margin-left:auto;

@@ -1,3 +1,10 @@
+@font-face{
+    font-family: 'irohamaru';
+    src:url(font/irohamaru-Regular.ttf);
+    font-family:'Gotham-Bold';
+    src:url(font/Gotham-Bold.otf);
+}
+
 body{
     padding:0;
     margin:0;
@@ -139,7 +146,7 @@ li{
 }
 
 .content3 p{
-    line-height: 16px;
+    line-height: 25px;
     /* margin:30px; */
 }
 
@@ -159,7 +166,7 @@ li{
     background: #ad1f19;/*背景色*/
 }
 
-.soccerGoal{
+/* .soccerGoal{
     position: relative;
     width:1000px;
     height:900px;
@@ -169,11 +176,11 @@ li{
 .soccerGoal img{
     width:1000px;
     height:900px;
-}
+} */
 
 
 table{
-    position:absolute;
+    /* position:absolute; */
     background-color:white;
     width:800px;
     height:700px;
@@ -254,7 +261,7 @@ table td{
 .pageTop{
     position:relative;
     z-index:100;
-    top:140px;
+    top:120px;
     width:155px;
     height:153px;
     margin-left:auto;
