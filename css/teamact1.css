@@ -1,8 +1,8 @@
 @font-face{
     font-family: 'irohamaru';
-    src:url(font/irohamaru-Regular.ttf);
+    src:url(font/irohamaru-Regular.ttf) format('truetype');
     font-family:'Gotham-Bold';
-    src:url(font/Gotham-Bold.otf);
+    src:url(font/Gotham-Bold.otf) format('truetype');
 }
 
 body{
@@ -33,7 +33,7 @@ li{
     top: 0;
     left: 0;
     z-index: 9998;
-    font-family:"Gotham-Bold";
+    font-family:Gotham-Bold;
     font-size: 23px;
     color:black;
     /* top:30px; */

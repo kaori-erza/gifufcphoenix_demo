@@ -1,8 +1,8 @@
 @font-face{
     font-family: 'irohamaru';
-    src:url(font/irohamaru-Regular.ttf);
+    src:url(font/irohamaru-Regular.ttf) format('truetype');
     font-family:'Gotham-Bold';
-    src:url(font/Gotham-Bold.otf);
+    src:url(font/Gotham-Bold.otf) format('truetype');
 }
 
 body{
@@ -34,7 +34,7 @@ li{
     top: 0;
     left: 0;
     z-index: 9998;
-    font-family:"Gotham-Bold";
+    font-family:Gotham-Bold;
     font-size: 23px;
     color:black;
     /* top:30px; */
@@ -98,7 +98,7 @@ li{
 
 .top-sen {
     color:#030101;
-    font-family: "Gotham-Bold";
+    font-family: Gotham-Bold;
     width:100%;
     display:flex;
     padding:1%;
@@ -127,7 +127,7 @@ li{
 }
 
 .historyTitle{
-    font-family: "Gotham-Bold";
+    font-family: Gotham-Bold;
     font-size: 40px;
     width:1000px;
     /* padding:20px; */
@@ -189,7 +189,7 @@ li{
 }
 
 .activitystatusTitle{
-    font-family: "Gotham-Bold";
+    font-family: Gotham-Bold;
     font-size: 40px;
     width:300px;
     /* padding:20px; */
@@ -250,7 +250,7 @@ li{
 }
 
 .staffTitle{
-    font-family: "Gotham-Bold";
+    font-family: Gotham-Bold;
     font-size: 40px;
     width:1000px;
     margin:100px auto 30px auto;
