@@ -2,7 +2,7 @@
     font-family: 'irohamaru';
     src:url(font/irohamaru-Regular.ttf) format('TrueType');
     font-family:'Gotham-Bold';
-    src:url(font/Gotham-Bold.otf) format('TrueType');
+    src:url(font/Gotham-Bold.otf) format('OpenType');
 }
 
 body{

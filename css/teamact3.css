@@ -1,8 +1,8 @@
 @font-face{
     font-family: 'irohamaru';
-    src:url(font/irohamaru-Regular.ttf) format('truetype');
+    src:url(font/irohamaru-Regular.ttf) format('TrueType');
     font-family:'Gotham-Bold';
-    src:url(font/Gotham-Bold.otf) format('truetype');
+    src:url(font/Gotham-Bold.otf) format('OpenType');
 }
 
 body{

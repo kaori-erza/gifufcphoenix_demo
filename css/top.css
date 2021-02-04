@@ -1,8 +1,10 @@
+/* https://licenses.opensource.jp/OFL-1.1/OFL-1.1.html */
+
 @font-face{
     font-family: 'irohamaru';
-    src:url(font/irohamaru-Regular.ttf) format('truetype');
+    src:url(font/irohamaru-Regular.ttf) format('TrueType');
     font-family:'Gotham-Bold';
-    src:url(font/Gotham-Bold.otf) format('opentype');
+    src:url(font/Gotham-Bold.otf) format('OpenType');
 }
 
 body{
