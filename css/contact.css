@@ -84,6 +84,17 @@ li{
     color: black;
   }
 
+
+@media screen and (max-width: 640px) {
+    .name_tag{
+       display: none;
+    }
+
+    .name_tag img{
+        display: none;
+     }
+}
+
 .box1 img{
     position:relative;
     top:100px;
