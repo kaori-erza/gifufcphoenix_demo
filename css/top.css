@@ -2,7 +2,7 @@
     font-family: 'irohamaru';
     src:url(font/irohamaru-Regular.ttf) format('truetype');
     font-family:'Gotham-Bold';
-    src:url(font/Gotham-Bold.otf) format('truetype');
+    src:url(font/Gotham-Bold.otf) format('opentype');
 }
 
 body{
@@ -163,7 +163,7 @@ li{
     display: inline-block;
     position: absolute;
     /* right: 40px; */
-    top:800px;
+    top:850px;
     left:50%;
     z-index: 2;
     padding: 10px 10px 110px;
@@ -212,7 +212,7 @@ li{
 
 .contents-wrapper{
     position: relative;
-    top:1000px;
+    top:1050px;
 }
 
 .top-sen {
