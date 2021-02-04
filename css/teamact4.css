@@ -1,8 +1,8 @@
 @font-face{
     font-family: 'irohamaru';
-    src:url(font/irohamaru-Regular.ttf) format('truetype');
+    src:url(font/irohamaru-Regular.ttf) format('TrueType');
     font-family:'Gotham-Bold';
-    src:url(font/Gotham-Bold.otf) format('truetype');
+    src:url(font/Gotham-Bold.otf) format('TrueType');
 }
 
 body{
@@ -231,7 +231,7 @@ li{
     /* top:300px; */
     width: 910px;
     /* height: 600px; */
-    margin:80px auto;
+    margin:30px auto;
     /* background-color:#ffb414; */
     
 }
@@ -242,6 +242,7 @@ li{
     height:60px;
     display:flex;
     box-shadow: 6px 6px #c2201f;
+    margin:80px auto 0 185px;
 }
 
 .feeTitle h1{
